@@ -1,0 +1,53 @@
+.interna-artes{
+    background: url(../images/artes-bg.jpg)no-repeat center;
+    background-size: cover;
+}
+
+quote-clientes{
+    max-width: 460px;
+    margin: 0 auto; /*Centralizar texto*/
+    padding: 60px 0;
+}
+
+.quote-clientes p{
+    padding-top: 30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, Helvetica, sans-serif;
+    
+}
+
+cite{
+    color: #000;
+    text-align: center;
+}
+
+.quote-clientes cite{
+    display: block;
+    margin: 10px auto 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.quote-clientes cite:after{
+    content: "";
+    display: block;
+    background: #FF693D;
+    width: 60px;
+    height: 3px;
+    margin: 0px auto 0 auto;
+}
+
+
+
+.arte img{
+    margin: 20px auto 50px auto;
+    height: 400px;
+}
+
+.arte li{
+    height: 440px;
+}

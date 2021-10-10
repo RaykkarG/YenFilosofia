@@ -1,0 +1,466 @@
+/*----------------------------
+-------->>>Estilos Gerais<<<------
+------------------------------*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rokkitt:wght@100;200;700&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+                    
+a{
+    cursor: pointer;
+}
+                    
+p{
+    font-size: 14px;
+    font-family: Georgia, Helvetica, sans-serif;
+    line-height: 20px;
+}
+                    
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.subtitulo{
+    text-align: center;
+    margin: 30px auto;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Rokkitt, Helvetica, sans-serif;
+}
+
+.subtitulo:after{
+    margin: 0 auto;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #1ABC9C;
+    display: block;
+}
+
+.btn{
+    border-radius: 2px;
+    border: 4px solid #FF693D;
+    padding: 5px 30px;
+    color: #fff;
+    font-family: Anton, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin:30px auto;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: .2em;
+}
+
+.btn:hover{
+    border-color: #1ABC9C;
+}
+
+.btn-preto{
+    border-radius: 2px;
+    border: 4px solid #FF693D;
+    padding: 3px 30px;
+    color: #000;
+    font-family: Anton, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: .1em;
+    margin: 0 auto;
+
+}
+
+.btn-preto:hover{
+    border-color: #1ABC9C;
+}
+/*----------------------------
+-------->>>Header<<<---------
+------------------------------*/
+
+.header{
+    width: 100%;
+    background-color: #000;
+    padding: 15px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.header-menu{
+    text-align: right;
+}
+
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.header-menu ul li a{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Rokkitt, Helvetica, sans-serif;
+}
+
+.header-menu ul li a:hover{
+    color: #FF693D;
+}
+
+/*----------------------------
+-------->>>Introdução<<<------
+------------------------------*/
+
+.introducao{
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/introducao-bg.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 78px;
+    
+}
+
+.introducao h1{
+    text-align: left;
+    width: 400px;
+    font-family: Anton, Helvetica, sans-serif;
+    margin-top: 250px;
+    color:#FF693D ;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: .1em;
+    margin-bottom: 30px;
+}
+
+.quote p{
+    width: 350px;
+    color: #1ABC9C;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 30px;
+    letter-spacing: .1em;
+    font-family: Anton, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.introducao-interna{
+    width: 100%;
+    margin-top: 78px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.introducao-interna h1{
+    font-size: 36px;
+    font-family: Rokkitt, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after{
+    content: "";
+    display: block;
+    background: #FF693D;
+    width: 60px;
+    height: 3px;
+    margin: 0px auto 15px auto;
+}
+
+.introducao-interna p{
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+.subtitulo-interno{
+    font-family: Rokkitt, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.subtitulo-interno:after{
+    content: "";
+    display: block;
+    background: #000;
+    width: 60px;
+    height: 3px;
+    margin: 0 0 10px 0;
+}
+
+/*----------------------------
+-------->>>Pensadores<<<------
+------------------------------*/
+
+.pensadores{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    text-align: center;
+}
+
+.produtos-icone{
+    width: fit-content;
+    height: 406px;
+    border: 3px solid #000;
+}
+
+.produtos-icone img{
+    height: 400px;
+}
+
+.pensadores h3{
+    margin: 20px 0;
+    font-weight: bold;
+
+}
+.pensadores ul{
+    margin: 0 auto;
+}
+
+.pensadores p{
+    width: 300px;
+    margin: 0 auto;
+    max-width:100%;
+    font-size: 16px;
+    letter-spacing: .1em;
+    
+}
+
+.autor:after{
+    margin: 5px auto;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+}
+.call{
+    text-align: center;
+    padding: 30px 0;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.call p{
+    width: 100%;
+    font-weight: bold;
+    margin: 20px 0 50px 0;
+}
+
+/*----------------------------
+-------->>>Artes<<<-----------
+------------------------------*/
+
+.arte{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #000;
+}
+
+.arte img{
+    border: 3px solid white
+}
+
+.arte h2{
+    color: #fff;
+}
+
+.arte-itens img{
+    height: 480px;
+    width: 100%;
+}
+
+.arte-itens li{
+    
+    max-width: 100%;
+    height: 500px;
+}
+
+.arte p{
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+/*----------------------------
+-------->>>Sobre<<<-----------
+------------------------------*/
+
+.sobre img{
+    height:300px;
+    border: 3px solid #FF693D ;
+    margin: 0 auto 30px auto;
+}
+
+.sobre h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: Rokkitt, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.sobre h3:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #FF693D;
+}
+
+.sobre p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+.sobre .btn-preto{
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/*----------------------------
+-------->>>Quebra<<<-----------
+------------------------------*/
+
+.quebra{
+    height: 220px;
+    width: 100%;
+    background: url(../images/footer.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+/*----------------------------
+-------->>>Footer<<<-----------
+------------------------------*/
+
+footer{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    font-family:Georgia, Helvetica, sans-serif;
+    
+}
+
+footer h3{
+    font-family: Rokkitt, Helvetica, sans-serif;
+    color: #FF693D;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-historia{
+    padding-right: 40px;
+}
+
+.footer-contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-sociais ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-sociais img{
+    width: 48px;
+     
+    background-color: #FF693D;
+}
+
+.footer-sociais ul li a{
+    border-radius: 5px;
+    border: 3px solid #FF693D;
+    display: block;
+}
+
+.footer-sociais ul li a:hover{
+    opacity: .8;
+}
+
+/*----------------------------
+-------->>>Copy<<<------------
+------------------------------*/
+
+.copy{
+    width: 100%;
+    background-color: #FF693D;
+    padding: 15px 0;
+}
+
+.copy p{
+    color: #000;
+    letter-spacing: .1em;
+    font-family: Rokkitt, Helvetica, sans-serif;
+}
+
+
+/*JavaScript*/
+
+.js [data-slide] {
+    position: relative;
+  }
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+  }
+
+.js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+.js [data-slide-nav] > button {
+    display: inline-block;
+    width: 12px;
+    margin: 4px;
+    height: 12px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    background: #1d1d1d;
+    text-indent: -100px;
+    overflow: hidden;
+  }
+.js [data-slide-nav] > button.active {
+    background: #fec454;
+  }
+
+.badaras{
+    background-color: #000;
+}
+
+
+
+
+

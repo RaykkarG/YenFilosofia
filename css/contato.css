@@ -1,0 +1,103 @@
+.interna-contato{
+background:url(../images/contato-bg.jpg) no-repeat center;
+background-size: cover;
+}
+
+.contato{
+    padding: 40px 0;
+
+}
+
+.form{              /*Elemento Pai do formulario à esquerda*/
+
+    padding-right: 60px;
+}
+
+.form label{
+    display: block;  /*Organiza as label, uma abaixo da outra*/
+    margin-bottom: 5px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #000;
+    font-family: Georgia, Helvetica, sans-serif;
+}
+
+.form input{
+    display: block;
+    padding: 10px 10px; /*Esse padding é o de dentro da caixa input*/
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000;
+    background: none;
+    font-family: Georgia, Helvetica, sans-serif;
+    border:3px solid #FF693D;
+    width: 100%;
+    outline: none;
+}
+
+.form textarea{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 14px;
+    padding: 10px 10px;
+    font-family: Georgia, Helvetica, sans-serif;
+    background: none;
+    border:3px solid #FF693D;
+    width: 100%;
+    height: 120px;
+    outline: none;
+}
+.form button{
+    margin-top: 20px;
+    background: none;
+    color:#000 ;
+    border:3px solid #FF693D ; 
+    padding: 7px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.form button:hover{
+    color: #000;
+    border-color: #000;
+}
+.contato-dados h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FF693D;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.contato-dados span{
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+}
+
+.contato-dados span:nth-of-type(even){
+    margin-bottom: 30px;
+}
+
+.contato-dados ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato-dados ul li a {
+    padding: 10px;
+    border: 3px solid #FF693D;
+    display: block;
+}
+
+.contato-dados ul li a:hover{
+    border-color: #000;
+}
+
+.mapa{
+    margin-bottom: 60px;
+}

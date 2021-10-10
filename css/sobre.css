@@ -1,0 +1,38 @@
+.interna-sobre{
+   background: url(../images/sobre-bg.jpg) no-repeat center;
+   background-size: cover;
+}
+
+.missao-sobre{
+    padding-top: 60px;
+    text-align: left;
+    font-family: Rokkitt, Helvetica, sans-serif;
+}
+
+.missao-sobre p{
+    font-family:Georgia, Helvetica, sans-serif;
+    margin-bottom: 2em;
+    letter-spacing: .1em;
+    padding-right: 60px;
+    font-size: 16px;
+
+}
+
+.missao-sobre ul li{
+    font-family:Georgia, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 28px;
+}
+
+.foto-sobre{
+    margin-top: 30px;
+    border: 3px solid #000;
+    
+}
+.sobre{
+    margin-bottom: 50px;
+}
+
+.sobre img{
+    border: 3px solid #000;
+}

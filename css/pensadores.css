@@ -1,0 +1,71 @@
+.interna-pensadores{
+    background: url(../images/pensadores-bg.jpg)no-repeat center;
+    background-size: cover;
+}
+
+.pensadores-item{
+    padding-top: 60px;
+}
+
+.pensadores-item h2{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    margin-bottom: -56px;
+}
+
+.pensadores-item h2:before,.pensadores-item h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 8px auto;
+}
+
+.pensadores-icone{
+    background-color: #000;
+    padding: 70px 0;
+}
+.pensadores-icone img{
+    margin: 0 auto;
+}
+
+.pensadores-info{
+    background-color: #000;
+}
+
+.pensadores-info p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    height: 180px;
+    padding: 30px 40px;
+}
+
+.pensadores-info ul li{
+    background-color: #fec63e;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    float: left;
+    height: 49px;
+    width: 229px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.pensadores-info ul li:nth-child(1), .pensadores-info ul li:nth-child(2){
+    margin-bottom: 2px;
+}
+
+.pensadores-info ul li:nth-child(even){
+    
+    margin-left: 2px;
+}
