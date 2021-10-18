@@ -4,13 +4,14 @@
 }
 
 .missao-sobre{
+    
     padding-top: 60px;
     text-align: left;
-    font-family: Rokkitt, Helvetica, sans-serif;
+    font-family:Georgia, Helvetica, sans-serif;
 }
 
 .missao-sobre p{
-    font-family:Georgia, Helvetica, sans-serif;
+     
     margin-bottom: 2em;
     letter-spacing: .1em;
     padding-right: 60px;
